@@ -1,0 +1,14 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/api/hello": "pages/api/hello.js",
+  "/contact": "pages/contact.html",
+  "/events": "pages/events.html",
+  "/": "pages/index.html",
+  "/news-details": "pages/news-details.html",
+  "/news-standard": "pages/news-standard.html",
+  "/project-2": "pages/project-2.html",
+  "/project-details": "pages/project-details.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}
