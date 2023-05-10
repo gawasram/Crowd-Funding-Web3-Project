@@ -37,7 +37,7 @@
         }
     },
     "wallets": {
-        "from_key": "${2a16a2960cdbfa99ef50b59579f25728748b296b0ebd2e7b776b05e28c1aa66}",
+        "from_key": "${2a16a2960cdbfa99ef50b59579f25728748b296b0ebd2e7b776b05e28c1aa661}",
         "from_mnemonic": "${MNEMONIC}"
     }
 }

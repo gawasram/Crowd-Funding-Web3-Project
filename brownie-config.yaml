@@ -18,14 +18,6 @@ networks:
     verify: True
   ganache:
     verify: False
-  polygon-test:
-    gas_limit: 8000000
-    gas_price: 1000000000
-    host: https://rpc-mumbai.maticvigil.com/
-    network_timeout: 600
-    chainid: 80001
-    explorer: https://mumbai.polygonscan.com/
-
 wallets:
-  from_key: ${2a16a2960cdbfa99ef50b59579f25728748b296b0ebd2e7b776b05e28c1aa661}
+  from_key: ${PRIVATE_KEY}
   from_mnemonic: ${MNEMONIC}
