@@ -1,0 +1,1 @@
+{"c":["webpack"],"r":["pages/project-details"],"m":["./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fproject-details&absolutePagePath=C%3A%5Cblockchainlaboratories%5CGit%5CCrowd-Funding-Web3-Project%5Cfrontend%5Cpages%5Cproject-details.js!","./pages/project-details.js","./src/web3/useDonateToProposal.js","./src/web3/useGetCampaign.js"]}

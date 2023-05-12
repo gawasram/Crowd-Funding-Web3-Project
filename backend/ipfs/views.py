@@ -15,3 +15,5 @@ def upload_img(request):
         result = upload_img_to_ipfs(path=path, image=content)
         json_result = json.dumps(result)
         return HttpResponse(json_result, content_type="application/json")
+    else:
+        return HttpResponse("Method not allowed", status=405)

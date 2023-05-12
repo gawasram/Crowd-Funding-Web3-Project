@@ -17,10 +17,12 @@ You can use any framework to deploy it by yourself, in this project we use Brown
 
 Deploy the contracts to your prefer test net and run the script to update the front end with:
 
--brownie run scripts/update_frontend --network polygon-test
-- /frontend
--npm run start
+-brownie run scripts/update_frontend.py --network goerli
 
+- /frontend
+-npm run dev
+
+-/backend
 python manage.py runserver
 
 ### Enjoy!

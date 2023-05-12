@@ -15,9 +15,18 @@ export function useCreateProposal() {
     signer
   ) {
     try {
+      owner,
+      title,
+      description,
+      category,
+      target,
+      deadline,
+      image,
+      signer
       const proxyContract = contractAddresses["5"]["UpgradeableProxy"][0];
+      //const proxyContract ="0xda727879d1Eda86E1B3D175166cd8A53dC22DD96";
       const crowdfunding = crowdfundingAbi.abi;
-
+      
       const crowdfundingInstance = new ethers.Contract(
         proxyContract,
         crowdfunding,
