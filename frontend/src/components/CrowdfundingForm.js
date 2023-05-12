@@ -61,14 +61,7 @@ function CrowdfundingForm() {
 
     const ethAmount = transforToEthers(amount);
     const unixDeadline = unixTimeStamp(deadline);
-    console.log( store.signer._address,
-      title,
-      description,
-      category,
-      ethAmount,
-      unixDeadline,
-      ipfsUrl,
-      store.signer)
+    
     createNewProposal(
       store.signer._address,
       title,
